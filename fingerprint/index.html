@@ -8,11 +8,11 @@
 
     <script src="./assets/wasm_exec.js"></script>
     <script src="./assets/wasm_init.js"></script>
-    <script>initWA("./assets/fingerprint.wasm");</script>
+    <script>loadAndInitWA("./assets/fingerprint.wasm");</script>
     <style>
         body {
-            font-size: 1.8em;
-            padding: 2em;
+            font-size: 1.2em;
+            padding: 0.8em;
         }
     </style>
 </head>
@@ -26,6 +26,8 @@
         <h1>You: <span id="fingerprint"></span></h1>
 
         <h2>What is Browser Finger Printing?</h2>
+        <h4><a href="https://en.wikipedia.org/wiki/Canvas_fingerprinting">Canvas Fingerprint</a></h4>
+
         <blockquote>
             <p>
                 At the image format level – web browsers use different image processing engines, image export options,
