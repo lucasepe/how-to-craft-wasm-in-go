@@ -21,10 +21,7 @@ wasm: clean
 serve:
 	ran -port=8888 -no-cache=true -index=index.html
 
-## dump: Dumps information about the WASM binary
-dump: wasm
-	wasm-objdump -h -j export -x $(OUT_DIR)/$(OUT_NAME).wasm
-
 ## clean: Clean the dist folder
 clean:
 	rm -f $(OUT_DIR)/*.wasm 
+

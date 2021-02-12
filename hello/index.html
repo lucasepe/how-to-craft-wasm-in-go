@@ -1,16 +1,18 @@
 <html>
 
 <head>
-    <title>Go WebAssembly - Hello World (web console)</title>
+    <title>How to craft WebAssembly in Go - Hello "DOM" World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-    <!-- Include the JS glue -->
+    <!-- Include the JavaScript "glue" -->
     <script src="./assets/wasm_exec.js"></script>
-    <!-- Load and compile WA function -->
+    <!-- Include the Go WASM Runtime setup script -->
     <script src="./assets/wasm_init.js"></script>
-    <!-- Load the WASM -->
-    <script>loadAndInitWA("./assets/hello.wasm");</script>
 </head>
 
-<body></body>
+<body>
+    <!-- Load and Init the WA module -->
+    <script>loadAndInitWA("./assets/hello.wasm");</script>
+</body>
 
 </html>
