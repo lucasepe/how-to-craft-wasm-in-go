@@ -11,4 +11,4 @@ You can found the article here:
 
 You can see the output opening your browser here:
 
-> https://lucasepe.github.io/how-to-craft-wasm-in-go/fingerprint/
+> https://lucasepe.github.io/how-to-craft-wasm-in-go/fingerprint/index.html
