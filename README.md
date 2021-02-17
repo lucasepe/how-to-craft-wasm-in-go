@@ -12,6 +12,10 @@ https://www.linkedin.com/pulse/webssembly-way-crafting-web-things-change-luca-se
 
 https://www.linkedin.com/pulse/how-craft-webassembly-go-part-1-luca-sepe/
 
+## How to craft WebAssembly in Go (part 2)
+
+https://www.linkedin.com/pulse/how-craft-webassembly-go-part-2-luca-sepe/
+
 # Live Demos
 
 ## Hello _"DOM"_ World
